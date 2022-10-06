@@ -8,5 +8,13 @@
 	email = andres.urraca@autentia.com
 [alias]
 	lg = log --oneline --graph --all
+	c = commit -m
+	ch = checkout
+	a = add
+	p = pull
+	d = push
+	f = fetch	
 [init]
 	defaultBranch = master
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
