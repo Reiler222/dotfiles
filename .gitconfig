@@ -1,0 +1,12 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Andrés Urraca
+	email = andres.urraca@autentia.com
+[alias]
+	lg = log --oneline --graph --all
+[init]
+	defaultBranch = master
