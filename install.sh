@@ -11,6 +11,10 @@ fi
 
 brew bundle install --file ./Brewfile
 
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts && brew install --cask font-fira-mono-nerd-font
+brew tap homebrew/cask-fonts && brew install --cask font-jetbrains-mono-nerd-font
+
 # Configure iTerm2 profile
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles"
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
