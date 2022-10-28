@@ -10,8 +10,6 @@ alias vsshau="vagrant ssh autentia"
 
   #OTROS ALIAS
 alias ll="lsd -la"
-alias coñacin="sudo nano /etc/hosts"
-alias wp="cd ~/Code/corporative-sites-ansible/sites" 
 alias dircolors="gdircolors"
 alias ls='gls --color=auto'
 alias dir='gdir --color=auto'
