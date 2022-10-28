@@ -22,7 +22,6 @@ alias zreset='source ~/.zshrc'
 alias vi='vim'
 
 # COLORES
-
 export LS_COLORS="$(vivid generate snazzy)"
 
 #------Autocompletion---------
@@ -49,9 +48,9 @@ zmodload -i zsh/complist
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-source /Users/Andres/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source /Users/Andres/.zsh/completion.zsh
-source /Users/Andres/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $HOME/.zsh/completion.zsh
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

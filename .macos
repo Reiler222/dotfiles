@@ -47,9 +47,12 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -int 1
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
-# Prevent apps from staying in Dock
+# Prevent apps from staying in Dock 
 defaults write com.apple.dock show-recents -bool no
 defaults write com.apple.dock recent-apps -array # intentionally empty
+
+# Wipe all (default) app icons from the Dock
+defaults write com.apple.dock persistent-apps -array
 
 # Disable user interface sound like screenshots
 defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
