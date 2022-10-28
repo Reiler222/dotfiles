@@ -1,5 +1,6 @@
 #ALIAS
   #ALIAS VAGRANT
+alias vaup="vagrant up"
 alias vs="vagrant snapshot"  
 alias vss="vagrant snapshot save"
 alias vsr="vagrant snapshot restore"
