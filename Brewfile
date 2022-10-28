@@ -11,6 +11,7 @@ brew "starship"
 brew "tree"
 brew "vivid"
 brew "wget"
+brew "coreutils"
 
 #Casks
 cask "google-chrome"
