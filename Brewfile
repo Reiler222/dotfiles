@@ -4,6 +4,7 @@
 #Brew
 brew "git"
 brew "python"
+brew "pipenv"
 brew "zsh"
 brew "lsd"
 brew "vim"
