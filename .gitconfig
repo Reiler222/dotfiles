@@ -1,11 +1,6 @@
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 [user]
 	name = Andrés Urraca
-	email = andres.urraca@autentia.com
+	email = reiler222@gmail.com
 [alias]
 	lg = log --oneline --graph --all
 	c = commit -m
@@ -16,5 +11,3 @@
 	f = fetch	
 [init]
 	defaultBranch = master
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com/
