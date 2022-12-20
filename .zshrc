@@ -5,8 +5,6 @@ alias vs="vagrant snapshot"
 alias vss="vagrant snapshot save"
 alias vsr="vagrant snapshot restore"
 alias vp="vagrant provision"
-alias vssha="vagrant ssh adictos"
-alias vsshau="vagrant ssh autentia"
 
   #OTROS ALIAS
 alias ll="lsd -la"
@@ -43,10 +41,6 @@ fi
 zmodload -i zsh/complist
 
 #______________________
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 source $HOME/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $HOME/.zsh/completion.zsh
